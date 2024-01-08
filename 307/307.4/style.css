@@ -1,0 +1,199 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #756a50;
+}
+
+body {
+    background: #f5f3eb;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:left;
+    margin: 0 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    min-height: 800px;
+    margin: 60px auto;
+    background: white;
+    box-shadow: 0 6px 20px 15px #fff5b6;
+
+    .main:hover & {
+        transform: scale(2);
+    }
+}
+
+.header {
+    text-align: center;
+    display: flex;
+    flex: 1;
+    background: #e5bf7e;
+    color: #756a50;
+    width: 100%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px 0px inset, rgba(17, 17, 26, 0.05) 0px 8px 32px 0px;
+    margin-bottom: 20px;
+}
+
+.info {
+    padding-top: 35px;
+    justify-content: center;
+    text-align: center;
+}
+
+.info p, p2 {
+    padding: 10px;
+    font-weight: 200;
+    font-size: small;
+}
+
+
+img {
+    margin: 10px;
+    border-radius: 7px;
+    object-fit: cover;
+    box-shadow: rgba(17, 17, 26, 0.3) 0px 4px 16px 0px inset, rgba(17, 17, 26, 0.3) 0px 8px 32px 0px;
+    display: flex;
+    flex: 1;
+}
+
+.title {
+    font-weight: 600;
+    font-size:large;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px auto;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+    text-underline-offset: 0.4em;
+}
+
+.section1 {
+    flex: 1 250px;
+}
+
+.icon {
+    margin: 20px;
+    font-weight: 500;
+}
+
+.section2 {
+    flex: 1 230px;
+}
+
+.techskill {
+    margin: 30px;
+    font-weight: 500;
+}
+.language {
+    margin: 30px;
+    font-weight: 500;
+}
+
+.section3 {
+    flex: 1 250px;
+    margin-bottom: 20px;
+    transition: 300ms;
+}
+
+.exp {
+    margin: 20px 30px;
+    font-weight: 500;
+}
+.exp .time {
+    font-size: small;
+    font-style: italic;
+}
+p {
+    font-size: small;
+    font-weight: 400;
+    justify-content: space-evenly;
+}
+.section4 {
+    flex: 1 250px;
+    margin-bottom: 20px;
+}
+
+.edu {
+    margin: 20px 30px;
+    font-weight: 500;
+}
+
+span {
+    font-size: small;
+    font-style: italic;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.main .section1:hover {
+    background: whitesmoke;
+    color: #756a50;
+    box-shadow: 0 6px 20px 15px #fff5b6;
+    transform: translateX(10px);
+    transition: 300ms;
+}
+.main .section2:hover {
+    background: whitesmoke;
+    color: #756a50;
+    box-shadow: 0 6px 20px 15px #fff5b6;
+    transform: scale(1.05);
+    transition: 300ms;
+}
+
+.main .section3:hover {
+    background: whitesmoke;
+    color: #756a50;
+    box-shadow: 0 6px 20px 15px #fff5b6;
+    transform: translateX(10px);
+    transition: 300ms;
+}
+
+.main .section4:hover {
+    background: whitesmoke;
+    color: #756a50;
+    box-shadow: 0 6px 20px 15px #fff5b6;
+    transform: translateX(10px);
+    transition: 300ms;
+}
+
+.main .section5:hover {
+    background: whitesmoke;
+    color: #756a50;
+    box-shadow: 0 6px 20px 15px #fff5b6;
+    transform: translateX(10px);
+    transition: 300ms;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover { 
+    color: rgb(55, 138, 226);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 400px) {
+    .main {
+        flex-flow: column;
+    }
+    
+}
+
+ /* margin...
+    flex-direction..
+    flex-wrap
+    flex-flow
+     *
